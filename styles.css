@@ -235,3 +235,135 @@ span{
 .about-download{
     width: auto;
 }
+
+.project-wrapper{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.project-list{
+    width: 100%;
+    height: 50%;
+}
+
+.project{
+    width: auto;
+    height: 20%;
+    background-color: var(--white);
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    transition: all ease .5s;
+    background-size: cover;
+    object-fit: contain;
+    background-position: center;
+    filter: brightness(.5);
+    width: auto;
+}
+.project-desc{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+    transition: all ease .5s;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 20%, rgba(0,212,255,0) 100%);
+    width: 100%;
+    height: 90%;
+    padding: 0 0 1em 0;
+}
+.project-desc p{
+    padding-right: 1em;
+}
+.project-title{
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,.5) 10%, rgba(0,212,255,0) 50%);
+    filter: brightness(1);
+}
+.project-title h5{
+    padding-left: .5em;
+}
+.project:hover > .project-desc{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.project:hover{
+    height: 70%;
+    filter: brightness(1);
+}
+.p1{
+    background-image: url(resources/projects/dobetter.png);
+}
+.p2{
+    background-image: url(resources/projects/cqs.png);
+}
+.p3{
+    background-image: url(resources/projects/cytes.png);
+}
+.p4{
+    background-image: url(resources/projects/hrrms.png);
+}
+.p5{
+    background-image: url(resources/projects/parallax.png);
+}
+.p6{
+    background-image: url(resources/projects/rps.png);
+}
+
+.contact{
+    height: 20dvh;
+}
+
+.footer-soc{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    padding: 2em;
+}
+.footer-soc ul{
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+
+.footer-soc ul li{
+    cursor: pointer;
+}
+.footer-soc::before{
+    content: '';
+    background-color: rgb(26, 26, 26);
+    position: relatives;
+    width: 3px;
+    height: 100%;
+    left: 0;
+    margin-bottom: 20px;
+}
+.footer-soc::after{
+    content: '';
+    background-color: rgb(26, 26, 26);
+    position: relative;
+    width: 3px;
+    height: 10%;
+    right: 0;
+}
+.footer-soc ul li a img{
+    height: 30px;
+    width: 30px;
+    color: white;
+}
