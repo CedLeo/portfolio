@@ -1,0 +1,61 @@
+{
+    "projects": [
+      {
+        "id": "p1",
+        "title": "Do Better",
+        "description": "A chrome browser extension to increase productivity and block distracting websites",
+        "pic_url": "https://example.com/pic1.jpg",
+        "url": "https://example.com/project1"
+      },
+      {
+        "id": "p2",
+        "title": "Customer Queue System",
+        "description": "Helps cashier or registrars manage customers with a number queue system",
+        "pic_url": "https://example.com/pic2.jpg",
+        "url": "https://example.com/project2"
+      },
+      {
+        "id": "p3",
+        "title": "Cytes Website",
+        "description": "A basic replica of generic social media websites",
+        "pic_url": "https://example.com/pic3.jpg",
+        "url": "https://example.com/project3"
+      },
+      {
+        "id": "p4",
+        "title": "Hybrid Room Reservation System",
+        "description": "Helps teacher, facilitators or administrators manage hybrid rooms",
+        "pic_url": "https://example.com/pic4.jpg",
+        "url": "https://example.com/project4"
+      },
+      {
+        "id": "p5",
+        "title": "Parallax",
+        "description": "Learning a different aspect of moving animation",
+        "pic_url": "https://example.com/pic5.jpg",
+        "url": "https://example.com/project5"
+      },
+      {
+        "id": "p6",
+        "title": "Rock Paper Scissors",
+        "description": "Your classic game of Rock paper and Scissors",
+        "pic_url": "https://example.com/pic6.jpg",
+        "url": "https://example.com/project6"
+      },
+      {
+        "id": "p7",
+        "title": "Humble beginnings RPG Game",
+        "description": "A fun and adventurous text based rpg game",
+        "pic_url": "https://example.com/pic6.jpg",
+        "url": "https://example.com/project6"
+      },
+      {
+        "id": "p8",
+        "title": "College Grade Calculator",
+        "description": "Calculating your grade for college is tiring",
+        "pic_url": "https://example.com/pic6.jpg",
+        "url": "https://example.com/project6"
+      }
+    ]
+  }
+  

@@ -11,9 +11,7 @@
     --acc-red: #FF4500;
 }
 
-
-
-
+/* #region header */
 header{
     width: auto;
     height: 3em;
@@ -36,11 +34,11 @@ header ul{
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    gap: 5px;
 }
 .menu{
     margin-left: 50px;
 }
+
 header ul li{
     position: relative;
     width: 100px;
@@ -91,6 +89,9 @@ header ul li:nth-child(4)::after {
     content: "Contact";
     transition: all ease-out 1s;
 }
+/* #endregion */
+
+/* #region hero */
 .hero{
     width: 100%;
     height: 100dvh;
@@ -188,6 +189,10 @@ span{
     width: 30px;
     color: white;
 }
+
+/* #endregion */
+
+/* #region About */
 .about{
     height: 80dvh;
     justify-content: center;
@@ -235,3 +240,132 @@ span{
 .about-download{
     width: auto;
 }
+
+/* #endregion */
+
+/* #region Project */
+.projects{
+    height: auto;
+}
+.project-wrapper{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.project-list{  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 50%;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.project{
+    width: 100%;
+    padding: 2em;
+    height: 15em;
+    background-color: var(--white);
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: all ease .5s;
+    background-position: center;
+    flex-basis: 20%;
+    border-radius: 20px;
+}
+
+.project-desc{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.project-desc p{
+    padding-right: 1em;
+    color: var(--primary);
+    padding: 1em;
+    display: none;
+    transition: all ease .5s;
+    font-weight: 700;
+}
+.project-title{
+    width: 100%;
+}
+.project-title h5{
+    padding-left: .5em;
+    color: var(--base);
+    height: 100%;
+}
+
+.project:hover{
+    transform: scale(1.5);
+    z-index: 10;
+}
+
+.project:hover > .project-desc p{
+    display: block;
+}
+
+/* #endregion */
+
+/* #region Contact/footer */
+.contact{
+    height: 20dvh;
+}
+
+.footer-soc{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    padding: 2em;
+}
+.footer-soc ul{
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+
+.footer-soc ul li{
+    cursor: pointer;
+}
+.footer-soc::before{
+    content: '';
+    background-color: rgb(26, 26, 26);
+    position: relatives;
+    width: 3px;
+    height: 100%;
+    left: 0;
+    margin-bottom: 20px;
+}
+.footer-soc::after{
+    content: '';
+    background-color: rgb(26, 26, 26);
+    position: relative;
+    width: 3px;
+    height: 10%;
+    right: 0;
+}
+.footer-soc ul li a img{
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+/* #endregion */
