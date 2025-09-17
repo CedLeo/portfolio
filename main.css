@@ -5,6 +5,10 @@
     color: #E0E0E0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --primary: #007474;
     --secondary: #009999;
@@ -17,6 +21,7 @@
     --acc-yellow: #FFCC00;
     --acc-red: #FF4500;
 }
+
 h1{
     color: var(--white);
     font-size: 80px;
