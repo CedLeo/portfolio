@@ -96,3 +96,116 @@ section::after{
     bottom: 0;
     border-radius: 20px;
 }
+
+/* ===== Responsive Design ===== */
+
+@media (max-width: 1024px) {
+  header ul {
+    width: 50%;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+  }
+
+  .hero-pic img {
+    width: 350px;
+    height: auto;
+    display: none;
+  }
+
+  .hero-text {
+    font-size: 28px;
+  }
+
+  .gallery {
+    width: 95%;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 1em;
+  }
+
+  header ul{
+    width: 100%;
+  }
+
+  .menu {
+    margin-left: 0;
+    display: block;
+  }
+
+  .hero{
+    height: 50dvh;
+  }
+
+  .hero-text h3 {
+    font-size: 24px;
+  }
+
+  .hero-soc {
+    display: none;
+  }
+
+  .introduction h1 {
+    font-size: 48px;
+  }
+
+  .introduction p {
+    font-size: 22px;
+  }
+  .item h3 {
+    font-size: 22px;
+  }
+
+  #projects h1{
+    font-size: 40px;
+  }
+}
+
+/* Phones (≤ 480px) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  .hero-pic img {
+    width: 250px;
+  }
+
+  .hero-text {
+    font-size: 18px;
+  }
+
+  button {
+    width: 120px;
+    font-size: 14px;
+    padding: 0.6em;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .introduction h1 {
+    font-size: 32px;
+  }
+  .introduction p {
+    font-size: 18px;
+  }
+}
