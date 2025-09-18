@@ -168,7 +168,6 @@ section::after{
   }
 }
 
-/* Phones (≤ 480px) */
 @media (max-width: 480px) {
   h1 {
     font-size: 42px;
@@ -209,3 +208,4 @@ section::after{
     font-size: 18px;
   }
 }
+
